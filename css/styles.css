@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: gray;
+}
+
+li {
+  margin: auto 30px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotateZ(25deg);
+  margin: 10px auto auto 30px;
+  position:absolute;
+}
+
+.navbar {
+  margin-bottom: 10px;
+
+}
+
+.title {
+  margin-top: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.features {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.fas {
+  color: #ef8172;
+  margin-bottom: 25px;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+.ftitle {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.fdescrip {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+/* testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+ .cta-title {
+   font-family: "Montserrat-black";
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: white;
+ }
+
+ /* footer */
+
+ #footer {
+   background-color: #fff;
+   text-align: center;
+ }
+
+ .footer-icon {
+   color: black;
+   padding: 5px;
+   margin-top: 4rem;
+ }
+ .footer-icon:hover {
+   color: black;
+ }
+
+ .footer-copyright {
+   font-size: 1rem;
+ }
+
+ .container-footer {
+   padding: 5px;
+   margin-top: 4rem;
+   line-height: 0.1;
+ }
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
